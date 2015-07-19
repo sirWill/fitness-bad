@@ -20,7 +20,7 @@ gulp.task('djs',function(){
 
     // custom scripts
     gulp.src(['builds/dev/app/**/*.js'])
-        .pipe(concat('app.js'))
+        .pipe(concat('main.js'))
         .pipe(gulp.dest('builds/dev'))
 });
 
