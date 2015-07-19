@@ -1,0 +1,23 @@
+{
+  "name": "fitness",
+  "version": "0.0.1",
+  "authors": [
+    "Alexey Sosnovsky <lvlonstradamus@gmail.com>"
+  ],
+  "description": "fitness tracker",
+  "license": "SCI",
+  "dependencies": {
+    "angular": "~1.4.3",
+    "angular-route": "~1.4.3",
+    "angular-resource": "~1.4.3",
+    "angular-sanitize": "~1.4.3",
+    "angular-animate": "~1.4.3",
+    "angular-cookies": "~1.4.3",
+    "angular-touch": "~1.4.3",
+    "angular-loader": "~1.4.3",
+    "angular-i18n": "~1.4.3",
+    "bootstrap": "~3.3.5",
+    "bootstrap-material-design": "~0.3.0",
+    "jquery": "~2.1.4"
+  }
+}
