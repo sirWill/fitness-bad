@@ -60,6 +60,12 @@ gulp.task('djade', function() {
         .pipe(gulp.dest('./builds/dev'))
 });
 
+//develpoer IMG
+gulp.task('dimg', function() {
+    gulp.src('builds/dev/app/img/*')
+        .pipe(gulp.dest('builds/dev/i'));
+});
+
 //developer HTML
 //gulp.task('dhtml', function(){
 //    gulp.src('builds/dev/app/**/*.html')
@@ -87,6 +93,7 @@ gulp.task('dev',[
     'dcss',
     'djade',
     //'dhtml',
+    'dimg',
     'dwatch',
     'dwebserver'
 ]);
